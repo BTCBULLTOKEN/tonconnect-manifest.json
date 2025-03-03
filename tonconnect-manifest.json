@@ -1,7 +1,26 @@
 {
   "url": "https://btcbulltoken-vip.blogspot.com/",
-  "name": "BtcBull Token Presale",
-  "iconUrl": "https://btcbulltoken-vip.blogspot.com/favicon.ico",
-  "termsOfUseUrl": "https://your-blog.blogspot.com/p/terms.html",
-  "privacyPolicyUrl": "https://your-blog.blogspot.com/p/privacy.html"
+  "name": "BTCBULL Presale",
+  "iconUrl": "https://btcbulltoken-vip.blogspot.com/favicon.png",
+  "termsOfUseUrl": "https://btcbulltoken-vip.blogspot.com/terms",
+  "privacyPolicyUrl": "https://btcbulltoken-vip.blogspot.com/privacy",
+  "permissions": [
+    "tonClient",
+    "accountInteraction",
+    "contractInteraction",
+    "network"
+  ],
+  "contracts": [
+    {
+      "address": "EQBRl5-JHhbbrFAams9BsUNC-AuJ3RVM2xrOyc6_5kUwfngf",
+      "chain": "mainnet",
+      "roles": ["user"]
+    }
+  ],
+  "networks": [
+    {
+      "chain": "mainnet",
+      "networkId": 1
+    }
+  ]
 }
